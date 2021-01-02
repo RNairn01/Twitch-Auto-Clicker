@@ -6,7 +6,7 @@
 
 ## Installation
 
-Coming soon - extension pending review. In the mean time the extension can be loaded using Chrome developer tools found in the extensions tab. You can learn how to do that [here]("https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/#:~:text=Follow%20the%20steps%20to%20load,Then%20Select%20Extensions.&text=Click%20on%20Load%20Unpacked%20and%20select%20your%20Unzip%20folder.").
+Coming soon - extension pending review. In the mean time the extension can be loaded using Chrome developer tools found in the extensions tab. You can learn how to do that [here](https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/#:~:text=Follow%20the%20steps%20to%20load,Then%20Select%20Extensions.&text=Click%20on%20Load%20Unpacked%20and%20select%20your%20Unzip%20folder.).
 
 ## How it works
 
