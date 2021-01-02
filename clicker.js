@@ -3,7 +3,7 @@ setTimeout(() => {
 const timerDiv = document.createElement("div");
 timerDiv.innerHTML = "--:--";
 const subImg = document.createElement("img");
-subImg.src = "https://i.imgur.com/kHP4Q8P.png";
+subImg.src = "https://i.imgur.com/BCViDZ2.png";
 
 const container = document.querySelector(".chat-input__buttons-container");
 container.appendChild(timerDiv);

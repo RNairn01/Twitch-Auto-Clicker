@@ -1,7 +1,7 @@
 {
-    "name": "Twitch Auto Clicker",
-    "version": "1.0",
-    "description": "An extension to auto click on those twitch points things",
+    "name": "Plus 50 - Twitch Auto Clicker",
+    "version": "0.1",
+    "description": "An extension to auto click on Twitch channel points",
     "permissions": ["https://*.twitch.tv/*"],
     "content_scripts": [
         {
@@ -12,5 +12,9 @@
             "run_at": "document_idle"
         }
     ],
+    "icons": 
+    { "16": "/resources/icon16.png",
+      "48": "/resources/icon48.png",
+     "128": "/resources/icon128.png" },
     "manifest_version": 2
   }
