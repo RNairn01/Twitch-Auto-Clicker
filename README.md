@@ -6,7 +6,7 @@
 
 ## Installation
 
-Coming soon
+Coming soon - extension pending review. In the mean time the extension can be loaded using Chrome developer tools found in the extensions tab.
 
 ## How it works
 
