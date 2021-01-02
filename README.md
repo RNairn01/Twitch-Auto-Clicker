@@ -6,13 +6,13 @@
 
 ## Installation
 
-Coming soon - extension pending review. In the mean time the extension can be loaded using Chrome developer tools found in the extensions tab.
+Coming soon - extension pending review. In the mean time the extension can be loaded using Chrome developer tools found in the extensions tab. You can learn how to do that [here]("https://webkul.com/blog/how-to-install-the-unpacked-extension-in-chrome/#:~:text=Follow%20the%20steps%20to%20load,Then%20Select%20Extensions.&text=Click%20on%20Load%20Unpacked%20and%20select%20your%20Unzip%20folder.").
 
 ## How it works
 
 *Plus 50* checks every second to see if the channel points button is available to click. If the button is available, it clicks it. The extension also comes with a timer to give you a rough idea how long it will be until your next collection of points. If you are subscribed to a channel, *Plus 50* will display a purple tick to let you know that you are earning extra points.
 
-![alt text](https://i.imgur.com/Dv9d8p4.png)
+![alt text](https://i.imgur.com/ZWdpWXw.png)
 
 ## Notes
 
