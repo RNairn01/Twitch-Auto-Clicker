@@ -25,7 +25,7 @@ timerDiv.style.fontWeight = "bold";
 timerDiv.style.width = "2rem";
 
 const subButton = document.querySelector("button[data-a-target='subscribed-button']");
-if (!subButton) {
+if (subButton) {
   container.appendChild(subImg);
   subImg.style.order = 3;
   console.log("Subscription button identified");
