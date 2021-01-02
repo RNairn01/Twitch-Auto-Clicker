@@ -2,6 +2,9 @@ setTimeout(() => {
 
 const timerDiv = document.createElement("div");
 timerDiv.innerHTML = "--:--";
+const subImg = document.createElement("img");
+subImg.src = "https://i.imgur.com/kHP4Q8P.png";
+
 const container = document.querySelector(".chat-input__buttons-container");
 container.appendChild(timerDiv);
 container.style.justifyContent = "center";
@@ -11,15 +14,22 @@ const nodes = container.getElementsByTagName('*');
 let i = 1;
 for (let node of nodes) {
   node.style.order = i.toString();
-  console.log(node.style.order)
   i+= 2;
 }
 timerDiv.style.order = "1";
 
-timerDiv.style.justifyContent = "center";
+timerDiv.style.justifyContent = "space-between";
 timerDiv.style.alignItems = "center";
 timerDiv.style.textAlign = "center";
 timerDiv.style.fontWeight = "bold";
+timerDiv.style.width = "2rem";
+
+const subButton = document.querySelector("button[data-a-target='subscribed-button']");
+if (!subButton) {
+  container.appendChild(subImg);
+  subImg.style.order = 3;
+  console.log("Subscription button identified");
+} else console.log("Failed to identify subscription button. If you are subscribed try reloading the page");
 
 const timer = (time) => {
   setInterval(() => {
@@ -52,7 +62,7 @@ const timer = (time) => {
 }
 
 
-timer("15:00");
+timer("14:50");
  
 
-}, 1000);
+}, 10000);

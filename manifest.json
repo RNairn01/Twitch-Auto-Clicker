@@ -11,9 +11,9 @@
         {
           "matches": ["https://*.twitch.tv/*"],
             "js": [
-            "background.js"
+            "clicker.js"
             ],
-            "run_at": "document_end"
+            "run_at": "document_idle"
         }
     ],
     "manifest_version": 2
