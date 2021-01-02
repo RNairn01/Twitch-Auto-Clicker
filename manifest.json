@@ -2,12 +2,8 @@
     "name": "Twitch Auto Clicker",
     "version": "1.0",
     "description": "An extension to auto click on those twitch points things",
-    "page_action": {
-        "default_popup": "popup.html",
-        "deault_title": "Twitch Clicker"
-      },
-      "permissions": ["https://*.twitch.tv/*"],
-      "content_scripts": [
+    "permissions": ["https://*.twitch.tv/*"],
+    "content_scripts": [
         {
           "matches": ["https://*.twitch.tv/*"],
             "js": [

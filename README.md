@@ -1,1 +1,25 @@
-# Twitch-Auto-Clicker
+# *Plus 50* - Twitch Channel Points Auto Clicker
+
+## About
+
+*Plus 50*  is an auto clicker and timer for use with your favourite Twitch channels. I made this extension to help anyone who wants to collect channel points whilst passively listening to streams without the need to check in and click a button every 15 minutes.
+
+## Installation
+
+Coming soon
+
+## How it works
+
+*Plus 50* checks every second to see if the channel points button is available to click. If the button is available, it clicks it. The extension also comes with a timer to give you a rough idea how long it will be until your next collection of points. If you are subscribed to a channel, *Plus 50* will display a purple tick to let you know that you are earning extra points.
+
+![alt text](https://i.imgur.com/Dv9d8p4.png)
+
+## Notes
+
+* In order to reliably collect points, the twitch stream must be your main Chrome tab. In my testing the extension has been able to auto click whilst working in different desktop environments, provided that chrome is open and has the stream loaded in its own environment.
+
+* The timer can get out of sync if you refresh the page or if the extension has not yet clicked on the icon this session. This is unavoidable in the current implementation but fixes itself whenever a new auto click occurs.
+
+* *Plus 50* will not load in for the first ten seconds after the page loads. This is to ensure that all of the needed page elements are loaded as the DOMContentLoaded event was producing unreliable results.
+
+* If any problems arise with *Plus 50* or any of its functionalities, refreshing the page will usually fix them.
