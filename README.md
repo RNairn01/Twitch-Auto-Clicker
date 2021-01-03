@@ -16,7 +16,7 @@ Coming soon - extension pending review. In the mean time the extension can be lo
 
 ## Notes
 
-* In order to reliably collect points, the twitch stream must be your main Chrome tab. In my testing the extension has been able to auto click whilst working in different desktop environments, provided that chrome is open and has the stream loaded in its own environment.
+* The button should still get clicked even if twitch is not your main tab. However if there are any issues they will usually be solved by a page refresh.
 
 * The timer can get out of sync if you refresh the page or if the extension has not yet clicked on the icon this session. This is unavoidable in the current implementation but fixes itself whenever a new auto click occurs.
 
