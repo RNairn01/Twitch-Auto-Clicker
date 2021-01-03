@@ -44,21 +44,24 @@ const timer = (time) => {
   if (minutes === 0 && seconds === 0) return;
   if (seconds === 0) {
     minutes -= 1;
-    seconds = 59;
+    seconds = 55;
     time = `${displayTime(minutes)}:${displayTime(seconds)}`;
   } else {
-    seconds -= 1;
+    seconds -= 5;
     time = `${displayTime(minutes)}:${displayTime(seconds)}`;
     }
 
   timerDiv.innerHTML = time;
 
   const icon = document.getElementsByClassName("claimable-bonus__icon");
-  if (icon.length > 0) {
+  if (icon.length > 0 || time === "00:00") {
   document.querySelector(".claimable-bonus__icon").click();
   time = "15:00";
   }
- }, 1000);
+
+
+  
+ }, 5000);
 }
 
 

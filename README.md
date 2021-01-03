@@ -10,7 +10,7 @@ Coming soon - extension pending review. In the mean time the extension can be lo
 
 ## How it works
 
-*Plus 50* checks every second to see if the channel points button is available to click. If the button is available, it clicks it. The extension also comes with a timer to give you a rough idea how long it will be until your next collection of points. If you are subscribed to a channel, *Plus 50* will display a purple tick to let you know that you are earning extra points.
+*Plus 50* checks every five seconds to see if the channel points button is available to click. If the button is available, it clicks it. The extension also comes with a timer to give you a rough idea how long it will be until your next collection of points. If you are subscribed to a channel, *Plus 50* will display a purple tick to let you know that you are earning extra points.
 
 ![alt text](https://i.imgur.com/ZWdpWXw.png)
 
