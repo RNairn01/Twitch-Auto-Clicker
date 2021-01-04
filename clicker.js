@@ -54,7 +54,7 @@ const timer = (time) => {
   timerDiv.innerHTML = time;
 
   const icon = document.getElementsByClassName("claimable-bonus__icon");
-  if (icon.length > 0 || time === "00:00") {
+  if (icon || time === "00:00") {
   document.querySelector(".claimable-bonus__icon").click();
   time = "15:00";
   }
