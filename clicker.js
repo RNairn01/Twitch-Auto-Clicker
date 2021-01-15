@@ -1,7 +1,7 @@
 setTimeout(() => {
 
 const timerDiv = document.createElement("div");
-timerDiv.innerHTML = "--:--";
+timerDiv.innerHTML = "Initializing...";
 const subImg = document.createElement("img");
 subImg.src = "https://i.imgur.com/BCViDZ2.png";
 
@@ -55,8 +55,13 @@ const timer = (time) => {
 
   const icon = document.getElementsByClassName("claimable-bonus__icon");
   if (icon || time === "00:00") {
-  document.querySelector(".claimable-bonus__icon").click();
-  time = "15:00";
+  try {
+    document.querySelector(".claimable-bonus__icon").click();
+    time = "15:00";
+  } catch {
+    //this prevents an error message from logging every five seconds, we expect the click to fail most times
+  }
+
   }
 
 

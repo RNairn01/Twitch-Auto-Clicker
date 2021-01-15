@@ -1,6 +1,6 @@
 {
     "name": "Plus 50 - Twitch Auto Clicker",
-    "version": "0.1",
+    "version": "0.5",
     "description": "An extension to auto click on Twitch channel points",
     "permissions": ["https://*.twitch.tv/*"],
     "content_scripts": [
